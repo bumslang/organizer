@@ -1,0 +1,28 @@
+.edit{
+    display: flex;
+    display: flex;
+}
+
+.edit__addition{
+    display: flex;
+
+}
+
+.edit__button {
+    cursor: pointer;
+    padding: 5px 45px;
+    background-color: aquamarine;
+    border: aquamarine;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.edit__note {
+    display: flex;
+    background: #ffeb5a;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-top: 3px;
+}

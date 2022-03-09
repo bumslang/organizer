@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.days {
+    display: flex;
+}
+
+.days__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.column__item {
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s
+}
+
+.column__weekday{
+    padding: 10px;
+    color: blue;
+}
+
+.column__item_hidden {
+    color: transparent;
+}
+
+.column__item_active{
+    background-color: aquamarine;
+
+}
+
+.column__item:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.calendar{
+    background-color: wheat;
+    border-radius: 7px;
+}

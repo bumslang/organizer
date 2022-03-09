@@ -1,0 +1,14 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.buttons__item {
+    cursor: pointer;
+    padding: 5px 45px;
+    background-color: aquamarine;
+    border: aquamarine;
+    border-radius: 7px;
+    font-size: 20px;
+}
