@@ -23,7 +23,7 @@ function Days({ nowYear, nowMonth, firstWeekDays, setFullDate, }) {
 
         days.forEach((elem, ind) => {
             for (let i = 0; i < 7; i++) {
-                if (ind % 7 === i) columns[i].push(elem)
+                if (ind % 7 === i) columns[i].push(elem);
             }
         });
 
